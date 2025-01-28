@@ -1,0 +1,3 @@
+# Node.js Server Hang Issue
+
+This repository demonstrates a common issue in Node.js where a long-running operation in a request handler can cause the server to appear unresponsive. The provided `bug.js` file contains a server that introduces a 5-second delay before responding, illustrating the problem. The solution, in `bugSolution.js`, addresses the issue using asynchronous operations and proper request lifecycle management.
